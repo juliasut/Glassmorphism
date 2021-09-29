@@ -5,4 +5,4 @@ In this project, I learned how to build a credit card that looks like frosted gl
 
 Easing animation function is from easings.net
 
-For the validation, a JavaScript library called Cleave.js was used.
+For the validation, a JavaScript library called Cleave.js was used. Does cc input formatting, phone number input, time formatting etc.
