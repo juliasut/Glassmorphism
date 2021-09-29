@@ -28,7 +28,7 @@ body {
   padding: 1.5rem;
   border-radius: 1rem;
   /* easing function from easings.net */
-  animation: 1s cubic-bezier(0.16, 1, 0.3, 1) cardEnter;
+  animation: 1.5s cubic-bezier(0.16, 1, 0.3, 1) cardEnter;
 }
 
 .card__title {
@@ -87,6 +87,15 @@ body {
 
 .card__chip img {
   width: 3rem;
+}
+
+.card__brand {
+  font-size: 3rem;
+  color: #fff;
+  min-width: 100px;
+  min-height: 75px;
+  text-align: right;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.);
 }
 
 @keyframes cardEnter {
