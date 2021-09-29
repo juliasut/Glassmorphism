@@ -27,6 +27,8 @@ body {
   backdrop-filter: blur(0.8rem);
   padding: 1.5rem;
   border-radius: 1rem;
+  /* easing function from easings.net */
+  animation: 1s cubic-bezier(0.16, 1, 0.3, 1) cardEnter;
 }
 
 .card__title {
@@ -85,5 +87,16 @@ body {
 
 .card__chip img {
   width: 3rem;
+}
+
+@keyframes cardEnter {
+  from {
+    transform: translateY(100vh);
+    opacity: 0.1;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
